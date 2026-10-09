@@ -34,7 +34,7 @@ def get_user_name():
             # Возвращаем значение, первая буква которого большая,
             # остальные - маленькие
             return user_name.capitalize()
-        print('Пожалуйста, введите корректной имя >> ')
+        print('Пожалуйста, введите корректное имя >> ')
 
 
 # Функции запроса возраста у пользователя
@@ -167,7 +167,7 @@ def print_result(
         user_bmi (float): ИМТ пользователя
         user_water_needed (float): Необходимое количество воды
     """
-    print(f'Привет, {user_name}! ({user_age} лет)')
+    print(f'Привет, {user_name} ({user_age} лет)!')
     print(
         f'Исходя из твоего роста ({user_height} м.) и '
         f'массы тела ({user_weight} кг.),'
