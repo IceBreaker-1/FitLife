@@ -169,8 +169,8 @@ def print_result(
     """
     print(f'Привет, {user_name} ({user_age} лет)!')
     print(
-        f'Исходя из твоего роста ({user_height} м.) и '
-        f'массы тела ({user_weight} кг.), твой индекс массы тела: {user_bmi}'
+        f'Исходя из твоего роста ({user_height} м.) и',
+        f'массы тела ({user_weight} кг.), твой индекс массы тела: {user_bmi}',
     )
     print(f'Рекомендуемая норма воды: {user_water_needed} л. в день\n')
     print("Расчет окончен. Будьте здоровы!")
