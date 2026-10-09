@@ -206,5 +206,5 @@ print_result(
     user_height,
     user_weight,
     user_bmi,
-    user_water_nedeed
+    user_water_nedeed,
 )
